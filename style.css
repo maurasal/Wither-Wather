@@ -1,0 +1,76 @@
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+body {
+  margin-left: 220px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#day1weather {
+  border: 3px #000;
+}
+.card {
+  background-color: rgb(48, 48, 75);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 10px;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  .sidebar form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar input[type="text"] {
+    width: 120px;
+    padding: 5px;
+  }
+  
+  .sidebar button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .sidebar button:hover {
+    background-color: #000;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    padding: 5px;
+  }

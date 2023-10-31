@@ -10,4 +10,4 @@ Here is a brief look at what to expect once you start the game: ![Screenshot of 
 
 ## Credits
 
-    I utilized the AI program Xpert Learning Assistant to better clarify my JavaScript code and make it more concise.
+I utilized the AI program Xpert Learning Assistant to better clarify my JavaScript code and make it more concise.
